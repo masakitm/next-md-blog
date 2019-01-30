@@ -1,0 +1,33 @@
+{
+  "fileMap": {
+    "articles/000.json": {
+      "title": "vue.js で jsx を始めよう 〜TODO アプリで触れる jsx〜",
+      "dir": "articles",
+      "base": "000.json",
+      "ext": ".json",
+      "sourceBase": "000.md",
+      "sourceExt": ".md"
+    },
+    "articles/001.json": {
+      "title": "this is the first article",
+      "dir": "articles",
+      "base": "001.json",
+      "ext": ".json",
+      "sourceBase": "001.md",
+      "sourceExt": ".md"
+    },
+    "articles/002.json": {
+      "title": "the second article",
+      "dir": "articles",
+      "base": "002.json",
+      "ext": ".json",
+      "sourceBase": "002.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "articles/000.md",
+    "articles/001.md",
+    "articles/002.md"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "bodyContent": "# this is the first article\r\n\r\nthis is the first article of this blog",
+  "bodyHtml": "<h1>this is the first article</h1>\n<p>this is the first article of this blog</p>\n",
+  "title": "this is the first article",
+  "dir": "articles",
+  "base": "001.json",
+  "ext": ".json",
+  "sourceBase": "001.md",
+  "sourceExt": ".md"
+}

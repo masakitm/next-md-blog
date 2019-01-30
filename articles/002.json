@@ -1,0 +1,10 @@
+{
+  "bodyContent": "# the second article",
+  "bodyHtml": "<h1>the second article</h1>\n",
+  "title": "the second article",
+  "dir": "articles",
+  "base": "002.json",
+  "ext": ".json",
+  "sourceBase": "002.md",
+  "sourceExt": ".md"
+}
