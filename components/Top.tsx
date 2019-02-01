@@ -1,8 +1,20 @@
-import summary from "../articles/summary.json";
+import * as React from 'react';
+import * as summary from "../articles/summary.json";
 import Link from "next/link";
 
+interface FileMap { 
+	[key: string]: {
+		"title": String,
+		"dir": String,
+		"base": String,
+		"ext": String,
+		"sourceBase": String,
+		"sourceExt": String
+	}
+}
+
 const Top = () => {
-  const { fileMap } = summary;
+  const { fileMap }: FileMap = summary;
 
   return (
     <div>

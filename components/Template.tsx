@@ -1,8 +1,27 @@
-import React from "react";
+import * as React from "react";
 import { withRouter } from "next/router";
-import ReactMarkdown from "react-markdown";
+import * as ReactMarkdown from "react-markdown";
 
-class Template extends React.Component {
+interface data {
+	"bodyContent"?: string,
+	"bodyHtml"?: string,
+	"title"?: string,
+	"dir"?: string,
+	"base"?: string,
+	"ext"?: string,
+	"sourceBase"?: string,
+	"sourceExt"?: string
+}
+
+interface Props {
+	router?: any
+}
+
+interface State {
+	data: data
+}
+
+class Template extends React.Component<Props, State> {
   constructor(props) {
     super(props);
 

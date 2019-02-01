@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import Layout from "../layout/Layout";
 import Template from "../components/Template";
 
