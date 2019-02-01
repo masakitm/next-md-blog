@@ -1,11 +1,11 @@
 import * as React from "react";
 import Layout from "../layout/Layout";
-import Top from "../components/Top";
+import ArticleList from "../components/ArticleList";
 
 const Home = () => (
   <div>
     <Layout>
-      <Top />
+      <ArticleList />
     </Layout>
   </div>
 );
