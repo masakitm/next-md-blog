@@ -2,11 +2,13 @@ import * as React from "react";
 import * as ReactMarkdown from "react-markdown";
 
 const Template = props => {
-	const { markdown } = props 
+	const markdown: string = props.markdown 
 
 	return (
 		<div>
-			<ReactMarkdown source={markdown} />
+			{
+				markdown ? <ReactMarkdown source={markdown} /> : <div>no entries.</div>
+			}
 		</div>
 	);
 }
