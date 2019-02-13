@@ -6,7 +6,7 @@ interface Props {
   word: string;
 }
 
-const Header = props => (
+const Header = (props: Props) => (
   <>
     <h1
       style={{
