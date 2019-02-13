@@ -54,8 +54,9 @@ const Enhance = Component => withRouter(
         <Component markdown={this.state.data.bodyContent} />
       );
     }
-  });
+	}
+);
 
-const TemplateConteinr = Enhance(Template);
+const TemplateContainer = Enhance(Template);
 
-export default TemplateConteinr;
+export default TemplateContainer;
