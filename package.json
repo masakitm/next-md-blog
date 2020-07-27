@@ -15,7 +15,7 @@
     "@types/redux": "^3.6.0",
     "@zeit/next-typescript": "^1.1.1",
     "babel-plugin-emotion": "^10.0.7",
-    "next": "^7.0.2",
+    "next": "^9.4.4",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-markdown": "^4.0.6",
